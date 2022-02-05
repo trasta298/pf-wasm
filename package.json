@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwind": "NODE_ENV=production tailwindcss -c ./tailwind.config.js -o ./tailwind.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
+}
